@@ -13,7 +13,7 @@ def grey_color_func(word, font_size, position,orientation,random_state=None, **k
 	return("hsl(0,0%%, %d%%)" % np.random.randint(10,50))
 
 
-text=open('/home/stud/u.txt').read()
+text=open('/home/stud/youtube_comments.txt').read()
 stopwords = set(STOPWORDS)
 mask = Image.open("/home/stud/Pictures/rab.jpg")
 mask = np.array(mask)
